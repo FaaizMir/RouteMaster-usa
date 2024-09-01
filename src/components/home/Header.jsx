@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Logo from "../../assets/Logo.png";
-import header from "/herovideo.mp4"; // Assuming you have the video file imported properly
+// import header from "/herovideo.mp4"; // Assuming you have the video file imported properly
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
           muted
           className="w-full h-full object-cover absolute top-0 left-0"
         >
-          <source src={header} type="video/mp4" />
+          <source src="herovideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         {/* Logo and Text */}
